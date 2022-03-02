@@ -1,0 +1,46 @@
+/* HERO */
+
+.site_hero{
+    background-image: url('../img/hero.jpg');
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.hero_container{
+    display: flex;
+    align-items: center;
+}
+
+.hero_arrow{
+    width: 64px;
+    height: 64px;
+    background-color: #09B358;
+    box-shadow: 0px 6.66667px 13.3333px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    border: none;
+}
+
+.hero_left_arrow{
+    margin-right: 30px;
+}
+
+.hero_text_wrapper{
+    width: 579px;
+}
+
+.hero_text{
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+    color: #272B29;
+    font-weight: normal;
+}
+
+.hero_link{
+    background-color:red;
+    box-shadow: 0px 6.66667px 13.3333px rgba(0, 0, 0, 0.1);
+    border-radius: 5.33333px;
+    padding: 20px 30px;
+    padding-right: 80px;
+    background-image: url('../img/left.svg');
+}

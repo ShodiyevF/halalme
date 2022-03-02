@@ -1,0 +1,232 @@
+/* GLOBAL */
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "" , sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #E5E5E5;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+
+.site_header{
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.site_header_logo_link{
+    text-decoration: none;
+}
+
+.site_header_logo_img{
+    width: 160px;
+    height: 48px;
+}
+
+.site_nav_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.site_nav_item{
+    margin-right: 40px;
+}
+
+.site_nav_item:last-child{
+    margin: 0;
+}
+
+.site_nav_link{
+    color: black;
+    text-decoration: none;
+}
+
+.header_langs_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header_langs_item{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.header_langs_item:last-child{
+    margin: 0;
+}
+
+.header_langs_img{
+    margin-right: 5px;
+}
+
+.search_wrapper{
+    background-color: white;
+    box-shadow: 0px 4px 10.6667px rgba(67, 73, 70, 0.12);
+    border-radius: 3px;
+    padding: 7px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_inputs{
+    display: flex;
+    align-items: center;
+}
+
+.search_dropdown_btn{
+    background: #FFFFFF;
+    padding: 13px 30px;
+    padding-right: 59px;
+    border: 1.33333px solid #E3E4E3;
+    box-sizing: border-box;
+    border-radius: 5.33333px;
+    background-image: url('../img/gamburger.png');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 35px) center;
+    font-size: 16px;
+    margin-right: 30px;
+    color: rgba(121, 121, 121, 1);
+}
+
+.search_input{
+    width: 482px;
+    background: #FFFFFF;
+    padding: 13px 30px;
+    border: 1.33333px solid #E3E4E3;
+    box-sizing: border-box;
+    border-radius: 5.33333px;
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 205px) center;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.search_links{
+    display: flex;
+    align-items: center;
+}
+
+.search_auth{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search_auth_signin, .search_auth_signup, .search_link_favourites, .search_link_basket{
+    font-size: 20px; 
+    color: #272B29;
+    text-decoration: none;
+}
+
+.search_auth_signin{
+    margin-right: 10px;
+}
+
+.search_auth_signin::before{
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/user.svg');
+    color: transparent;
+    margin-right: 5px;
+    content: 'aa';
+}
+
+.search_auth_line{
+    font-size: 20px;  
+    color: #272B29;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.search_link_favourites{
+    margin-right: 30px;
+}
+
+.search_link_favourites::before{
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/heart.png');
+    background-repeat: no-repeat;
+    color: transparent;
+    margin-right: 5px;
+    content: "aa";
+}
+
+.links_basket_wrapper{
+    position: relative;
+}
+
+.links_basket_count{
+    position: absolute;
+    background-color: #09B358;
+    padding: 0.5px 6px;
+    font-size: 12px;
+    top: -2px;
+    left: 11px;
+    color: white;
+    border-radius: 50%;
+}
+
+.search_link_basket::before{
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/basket.png');
+    background-repeat: no-repeat;
+    color: transparent;
+    margin-right: 10px;
+    content: "aa";
+}

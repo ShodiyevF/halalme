@@ -5,12 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halal me</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="site_header">
-        <div class="container">
-
+        <div class="container header_container">
+            <a class="site_header_logo_link" href="index.html">
+                <img class="site_header_logo_img" src="img/logo.png" alt="logo" width="159" height="49">
+            </a>
+            <nav class="site_nav">
+                <ul class="site_nav_list">
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Asosiy</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Sotuvchilar</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Biz haqimizda</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Bog’lanish</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header_langs_list">
+                <li class="header_langs_item">
+                    <img class="header_langs_img" src="img/uzb.jpg" alt="uzbek tili" width="33" height="18">
+                    <p class="header_langs_text">Uzb</p>
+                </li>
+                <li class="header_langs_item">
+                    <img class="header_langs_img" src="img/uzb.jpg" alt="uzbek tili" width="33" height="18">
+                    <p class="header_langs_text">Узб</p>
+                </li>
+                <li class="header_langs_item">
+                    <img class="header_langs_img header_langs_img--rus" src="img/rus.jpg" alt="rus tili" width="27" height="18">
+                    <p class="header_langs_text">Рус</p>
+                </li>
+            </ul>
+        </div>
+        <div class="container site_header_search">
+            <div class="search_wrapper">
+                <div class="search_inputs">
+                    <button class="search_dropdown_btn">Katalog</button>
+                    <input class="search_input" type="text" placeholder="Qidirish..." aria-label="qidirish">
+                </div>
+                <div class="search_links">
+                    <div class="search_auth">
+                        <a class="search_auth_signin" href="signin.html">Kirish</a><p class="search_auth_line">|</p>
+                        <a class="search_auth_signup" href="signup.html">Ro’yhatdan o’tish</a>
+                    </div>
+                    <a class="search_link_favourites" href="favourites.html">Sevimlilar</a>
+                    <div class="links_basket_wrapper">
+                        <span class="links_basket_count">0</span>
+                        <a class="search_link_basket" href="basket.html">Savatcha</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    <main class="site_main">
+        <section class="site_hero">
+            <div class="container hero_container">
+                <button class="hero_arrow hero_left_arrow"></button>
+                <div class="hero_text_wrapper">
+                    <h1 class="hero_text">Akrom Malik ‘’Halqa’’ va ‘’Jangchi’’ asarlari</h1>
+                    <a class="hero_link" href="#">Sotib olish</a>
+                </div>
+                <button class="hero_arrow hero_right_arrow"></button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
