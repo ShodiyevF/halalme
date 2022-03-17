@@ -1,0 +1,26 @@
+.signup_container{
+    background-image: none;
+    background-image: url('../img/signin_bg.svg');
+    background-repeat: no-repeat;
+}
+
+.sign_form{
+    padding-bottom: 251px;
+}
+
+.remember_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.forget_password{
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #FD9900;
+}
+
+.signup_submit_btn{
+    padding: 16px 139px 18px 139px;
+}

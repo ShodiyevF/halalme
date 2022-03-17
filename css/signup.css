@@ -1,0 +1,129 @@
+.signup{
+    margin-bottom: 150px;
+}
+
+.signup_container{
+    box-shadow: 0px 5.33333px 10.6667px rgba(0, 0, 0, 0.12);
+    border-radius: 5.33333px;
+    background-image: url('../img/signup_bg.svg');
+    background-position: calc(50% - 350px);
+    background-repeat: no-repeat;
+    background-size: 450px 430px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 720px;
+    padding-right: 0;
+}
+
+.sign_form{
+    background-color: white;
+    padding: 74px 164px 71px 156px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sign_btns{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #09B358;
+    margin-bottom: 75px;
+}
+
+.sign_btn{
+    width: 175px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.sign_btn_border{
+    border-bottom: 4px solid #09B358;
+}
+
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input_label{
+    font-size: 20px;
+    color: #272B29;
+    margin-bottom: 5px;
+}
+
+.signup_input{
+    width: 360px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #797979;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.type_of_user_wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.type_of_user_wrapper:last-child{
+    margin-bottom: 23px;
+}
+
+.type_of_user_radio{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #797979;
+    box-sizing: border-box;
+    margin-right: 13px;
+}
+
+.radio_label_usertype{
+    font-size: 20px;
+    color: #797979;
+}
+
+.signup_about_text{
+    font-size: 16px;    
+    color: #797979;
+}
+
+.agentment_wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user_aggentment{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.agentment_label{
+    font-size: 16px;
+    color: #272B29;
+}
+
+.agentment_sup{
+    text-decoration: underline;
+    color: #272B29;
+}
+
+.signup_submit_btn{
+    width: auto;
+    background-color: #09B358;
+    padding: 16px 131px 18px 133px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 6.66667px 13.3333px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

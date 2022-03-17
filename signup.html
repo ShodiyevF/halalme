@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <header class="site_header">
+        <div class="container header_container">
+            <a class="site_header_logo_link" href="index.html">
+                <img class="site_header_logo_img" src="img/logo.png" alt="logo" width="159" height="49">
+            </a>
+            <nav class="site_nav">
+                <ul class="site_nav_list">
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Asosiy</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Sotuvchilar</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Biz haqimizda</a>
+                    </li>
+                    <li class="site_nav_item">
+                        <a class="site_nav_link" href="homepage.html">Bog’lanish</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header_langs_list">
+                <li class="header_langs_item">
+                    <img class="header_langs_img" src="img/uzb.jpg" alt="uzbek tili" width="33" height="18">
+                    <p class="header_langs_text">Uzb</p>
+                </li>
+                <li class="header_langs_item">
+                    <img class="header_langs_img" src="img/uzb.jpg" alt="uzbek tili" width="33" height="18">
+                    <p class="header_langs_text">Узб</p>
+                </li>
+                <li class="header_langs_item">
+                    <img class="header_langs_img header_langs_img--rus" src="img/rus.jpg" alt="rus tili" width="27" height="18">
+                    <p class="header_langs_text">Рус</p>
+                </li>
+            </ul>
+        </div>
+        <div class="container site_header_search">
+            <div class="search_wrapper">
+                <div class="search_inputs">
+                    <button class="search_dropdown_btn">Katalog</button>
+                    <input class="search_input" type="text" placeholder="Qidirish..." aria-label="qidirish">
+                </div>
+                <div class="search_links">
+                    <div class="search_auth">
+                        <a class="search_auth_signin" href="signin.html">Kirish</a><p class="search_auth_line">|</p>
+                        <a class="search_auth_signup" href="signup.html">Ro’yhatdan o’tish</a>
+                    </div>
+                    <a class="search_link_favourites" href="favourites.html">Sevimlilar</a>
+                    <div class="links_basket_wrapper">
+                        <span class="links_basket_count">0</span>
+                        <a class="search_link_basket" href="basket.html">Savatcha</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="site_main">
+        <div class="container pages_container">
+            <h1 class="title_of_pages">Bosh sahifa > <span class="suptitle_of_page">Registratsia</span></h1>
+        </div>
+
+        <section class="signup">
+            <div class="container signup_container">
+                <form class="sign_form" action="#" method="post">
+                    <div class="sign_btns">
+                        <a class="sign_btn sign_btn_signin" href="signin.html">Kirish</a>
+                        <a class="sign_btn sign_btn_signup sign_btn_border" href="signup.html">Ro’yhatdan o’tish</a>
+                    </div>
+
+                    <div class="input_wrapper">
+                        <label class="input_label input_label_email" for="email">Elektron pochta manzili</label>
+                        <input class="signup_input signup_input_email" type="text" name="email" id="email">
+                    </div>
+
+                    <div class="input_wrapper">
+                        <label class="input_label input_label_passwordd" for="password">Parol</label>
+                        <input class="signup_input signup_input_password" type="text" name="password" id="password">
+                    </div>
+
+                    <div class="type_of_user_wrapper">
+                        <input class="type_of_user_radio" id="usertypee" type="radio" name="typeuser">
+                        <label class="radio_label_usertype" for="usertypee">Men xaridorman</label>
+                    </div>
+                    <div class="type_of_user_wrapper">
+                        <input class="type_of_user_radio" id="usertype" type="radio" name="typeuser">
+                        <label class="radio_label_usertype" for="usertype">Men vendorman</label>
+                    </div>
+                    <p class="signup_about_text">Sizning shaxsiy ma'lumotlaringiz ushbu web-saytda sizni qo'llab-quvvatlash,hisobingizga kirishni boshqarish va xavfsizlik siyosatida tasvirlangan boshqa maqsadlarda foydalaniladi.</p>
+                    
+                    <div class="agentment_wrapper">
+                        <input id="agentment" class="user_aggentment" type="checkbox" name="agentment">
+                        <label class="agentment_label" for="agentment">Men <a href="#" class="agentment_sup">maxfiylik siyosati</a> shartlariga roziman. *</label>
+                    </div>
+                    <button class="signup_submit_btn">TASDIQLASH</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site_footer">
+        <div class="container footer_container">
+            <div class="footer_logo">
+                <a class="footer_logo_link" href="index.html">
+                    <img class="footer_logo_img" src="img/logo.png" alt="logo">
+                </a>
+                <ul class="footer_link_list">
+                    <li class="footer_link_item">
+                        <a class="footer_link_item_link" href="">
+                            <img class="footer_link_item_img" src="img/insta.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a class="footer_link_item_link" href="">
+                            <img class="footer_link_item_img" src="img/face.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a class="footer_link_item_link" href="">
+                            <img class="footer_link_item_img" src="img/telegram.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <a class="footer_tel_link" href="tel:998974117799">+99897 4117799</a>
+            </div>
+            <div class="lists_wrapper">
+                <div class="footer_lists footer_list_one">
+                    <h1 class="footer_lists_title">Kompaniya</h1>
+                    <ul class="footer_lists_list">
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Biz haqimizda</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Sotuvchi bo’lmoqchiman</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Saytdan foydalanish shartlari</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Bog’lanish</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_lists">
+                    <h1 class="footer_lists_title">Vendorlar</h1>
+                    <ul class="footer_lists_list">
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Zarun</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Bek texnika</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Mohir noutbuklar</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Irfon</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Tamaddun</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_lists footer_list_last">
+                    <h1 class="footer_lists_title">Vendorlar</h1>
+                    <ul class="footer_lists_list">
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Zarun</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Bek texnika</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Mohir noutbuklar</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Irfon</a>
+                        </li>
+                        <li class="footer_lists_item">
+                            <a class="footer_lists_link" href="#">Tamaddun</a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2022 Halalme | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -14,7 +14,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: "" , sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #E5E5E5;
@@ -229,4 +229,138 @@ img {
     color: transparent;
     margin-right: 10px;
     content: "aa";
+}
+
+/* SITE_FOOTER */
+
+.site_footer{
+    background-color: white;
+    padding-top: 141px;
+    /* padding: 141px 264px 40px 240px; */
+    padding-bottom: 40px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: start;
+}
+
+.footer_logo{
+    margin-right: 106px;
+}
+
+.footer_logo_link{
+    text-decoration: none;
+    padding: 1;
+}
+
+.footer_logo_img{
+    width: 200px;
+    height: 60px;
+    margin-bottom: 37px;
+}
+
+.footer_link_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 37px;
+}
+
+.footer_link_item{
+    margin-right: 40px;
+}
+
+.footer_link_item:last-child{
+    margin-right: 0;
+}
+
+.footer_link_item_link{
+    border: 1.3px solid black;
+    border-radius: 50%;
+    display: flex;
+    padding: 8px;
+}
+
+.footer_tel_link{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* LISTS */
+
+.footer_container{
+    border-bottom: 1px solid #797979;
+    padding-bottom: 90px;
+}
+
+.lists_wrapper{
+    width: 1055px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_lists:last-child{
+    margin-right: 0;
+}
+
+.footer_lists_title{
+    font-size: 32px;    
+    font-weight: 600;
+    color: #272B29;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.footer_lists_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_lists_item{
+    margin-bottom: 20px;
+}
+
+.footer_lists_item:last-child{
+    margin-bottom: 0;
+}
+
+.footer_lists_link{
+    color: #797979;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+.copyright{
+    width: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #797979;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+}
+
+/* PAGES */
+
+.pages_container{
+    margin-bottom: 66px;
+}
+
+.title_of_pages{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #797979;
+}
+
+.suptitle_of_page{
+    color: black;
+    font-weight: 500;
 }
